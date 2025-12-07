@@ -37,6 +37,7 @@
     "check"
     "complements"
     "contains"
+    "cross"
     "default"
     "dimen"
     "div"
@@ -207,8 +208,7 @@ For example,
   (set (make-local-variable 'font-lock-defaults) '((ampl-font-lock-keywords)))
   (set (make-local-variable 'ampl-basic-offset) 4)
   (set (make-local-variable 'indent-line-function) 'ampl-indent-line)
-  ;(set (make-local-variable 'comment-start) "# "))
-  )
+  (set (make-local-variable 'comment-start) "# "))
 
 (defalias 'mathprog-mode 'ampl-mode)
 (provide 'ampl-mode)
